@@ -12,11 +12,11 @@ This is a backend project that consists of two Express servers:
     ![GET /about output image](images/get_about.png)
   - **`GET /data`**: Returns locally stored data.  
     ![GET /data output image](images/get_data.png)
-  - **`GET /external-data`**: Fetches data from the external API running on a different port.  
-    ![GET /external-data output image](images/get_external_data.png)
+ 
   
 - **External API**:
-  - **`GET /external-data`**: Returns dummy data from the external API.
+   - **`GET /external-data`**: Fetches data from the external API running on a different port.  
+    ![GET /external_data output image](images/get_external_data.png)
 
 ## Prerequisites
 - Node.js (>= 16.x)
@@ -28,7 +28,8 @@ This is a backend project that consists of two Express servers:
    Clone the repository to your local machine using the following command:
    
    git clone <https://github.com/Naji4054/Jadwelny-Task.git>
-   cd <project-folder>
+
+   cd project-folder
 
 2. **Project Structure**:
 The project consists of two main parts:
@@ -70,6 +71,6 @@ node server.js
 
 This will start the main backend server, and it will be running on http://localhost:3000.
 
-**Available Routes**
+**Available Route**
 Main Backend Server (http://localhost:3000):
 
